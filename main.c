@@ -3,7 +3,8 @@
 
 int main(void){
 
-	int a = 3, b = 5;
+	int a = 6, b = 12;
+
 	printf("(initial) a = %d, b = %d\n", a, b);
 	
 	swap(&a, &b);
