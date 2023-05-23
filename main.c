@@ -4,7 +4,7 @@
 int main(void){
 
 	int a = 6, b = 12;
-
+	printf("Edit");
 	printf("(initial) a = %d, b = %d\n", a, b);
 	
 	swap(&a, &b);
