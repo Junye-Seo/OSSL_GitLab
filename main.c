@@ -4,12 +4,13 @@
 int main(void){
 
 	int a = 6, b = 12;
-
+	printf("Edit");
 	printf("(initial) a = %d, b = %d\n", a, b);
 	
 	swap(&a, &b);
 	printf("(swapped) a = %d, b = %d\n", a, b);
-
+//hi hello
+	printf("edited");
 	printf("(added) a + b = %d + %d = %d\n", a, b, add(a, b));
 	printf("(subtracted) a - b = %d - %d = %d\n", a, b, subtract(a, b));
 	
